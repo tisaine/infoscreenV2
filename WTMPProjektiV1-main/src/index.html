@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!--Custom style sheet-->
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <title>
+      Infoscreen projekti>
+    </title>
+  </head>
+  <body>
+    <main>
+      <!--Logo+ navi-->
+      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-xs py-0 fixed-top">
+        <a href="https://metropolia.fi/fi" class="navbar-brand" >
+          <img src="/WTMPProjektiV1-main/src/assets/img/metropolia_logo.png" alt="logo">
+        </a>
+      </nav>
+      <header>
+        <!-- Sivun alku -->
+        <h1 id="Otsikko">Metropolia</h1>
+        <h2 id="aliOtsikko">Karamalmi</h2>
+        <div id="clock" onload="currentTime()"></div>
+      </header>
+
+
+      <!-- Tiedotteet -->
+      <section class="info">
+        <h2 class="lootaOtsikko">Tiedotteet</h2>
+        <div id="metropolia-data"></div>
+        <p>lorem ipsum jne.</p>
+        <p>lorem ipsum jne.</p>
+        <p>lorem ipsum jne.</p>
+      </section>
+
+
+
+      <!-- HSL-Aikataulut -->
+        <section id="hsl-page">
+          <h2 class="lootaOtsikko">HSL-Aikataulut</h2>
+          <div id="hsl-grid">
+            <h2>Mistä</h2>
+            <h2>Minne</h2>
+            <h2>Lähtee (min)</h2>
+            <div id="hsl-data"></div>
+            <div id="hsl-data2"></div>
+            <div id="hsl-data3"></div>
+          </div>
+        </section>
+
+      <!-- Ruokalistat -->
+      <section id="lunch-page">
+        <h2 class="lootaOtsikko">Metropolia ruokalista</h2>
+        <div class="container-box">
+
+          <div class="restaurant-box">
+            <ul id="sodexo">
+            </ul>
+          </div>
+        <!--
+          <div class="restaurant-box">
+            <h2>Fazer Karaportti</h2>
+            <ul id="fazer">
+            </ul>
+          </div>
+        -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
